@@ -29,13 +29,42 @@
     <!--[if lt IE 9]>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+      .scroll-down {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-decoration: none;
+        color: #000;
+        font-size: 24px;
+        z-index: 1000;
+        cursor: pointer;
+      }
+
+      .scroll-down:hover {
+        color: #555;
+      }
+
+      #colorlib-home {
+        padding-top: 100px; /* Ajustez cette valeur selon vos besoins */
+      }
+    </style>
   </head>
   <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#colorlib-about">About</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Portfolio</a>
+          <div class="dropdown-content">
+            <a href="#portfolio">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+          </div>
+        </li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -56,8 +85,8 @@
     </header>
 
     <div id="colorlib-page">
-      <!-- About Section -->
-      <div id="colorlib-about">
+      <!-- Home Section -->
+      <div id="colorlib-home">
         <div class="container">
           <div class="row text-center">
             <h2 class="bold">Home</h2>
@@ -72,7 +101,7 @@
                 </div>
                 <div class="item">
                   <div class="img-container">
-                    <img class="img-responsive about-img" src="images/about-3.png" alt="html5 bootstrap template by colorlib.com" />
+                    <img class="img-responsive about-img" src="images/about.png" alt="html5 bootstrap template by colorlib.com" />
                   </div>
                 </div>                                    
               </div>
@@ -95,7 +124,7 @@
                     Hi! I'm Yasmine Salmouni, a passionate student specializing in computer science. I'm currently studying at l'Ecole des Mines de Saint-Etienne. A very prestigious french school ranked among the top 10 engineering schools in France.
                   </p>
                   <p>
-                    I'm looking for a five mounths internship opportunity where I can leverage my skills in financial mathematics starting from april 2025.
+                    I'm looking for a five months internship opportunity where I can leverage my skills in financial mathematics starting from April 2025.
                   </p>
                   <p class="cv-social-links">
                     <a href="https://www.linkedin.com/in/yasmine-salmouni-664836281/" target="_blank"><i class="icon-linkedin"></i></a>
@@ -110,9 +139,22 @@
             </div>
           </div>
         </div>
+        <a href="#colorlib-about" class="scroll-down" aria-label="Scroll Down">
+          <i class="fas fa-chevron-down"></i>
+        </a>      
       </div>
     </div>
-
+      <!-- About Section -->
+      <div id="colorlib-about">
+        <div class="row text-center">
+          <h2 class="bold">About</h2>
+        </div>
+        <div class="container">
+          <div class="row text-center">
+            <h2 class="bold">About</h2>
+          </div>
+        </div>
+      </div>
       <!-- Portfolio Section -->
       <section id="portfolio">
         <h2>Portfolio</h2>
