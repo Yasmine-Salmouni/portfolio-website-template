@@ -1,462 +1,326 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Yasmine Salmouni - Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="favicon.ico" />
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet" />
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css" />
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css" />
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <!-- Owl Carousel -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <!-- custom style -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-      .scroll-down {
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        text-decoration: none;
-        color: #000;
-        font-size: 24px;
-        z-index: 1000;
-        cursor: pointer;
-      }
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Yasmine Salmouni - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico" />
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet" />
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css" />
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="css/icomoon.css" />
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <!-- custom style -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Modernizr JS -->
+  <script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- FOR IE9 below -->
+  <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    .scroll-down {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-decoration: none;
+      color: #000;
+      font-size: 24px;
+      z-index: 1000;
+      cursor: pointer;
+    }
 
-      .scroll-down:hover {
-        color: #555;
-      }
+    .scroll-down:hover {
+      color: #555;
+    }
 
-      #colorlib-home {
-        padding-top: 100px; /* Ajustez cette valeur selon vos besoins */
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <ul>
-        <li><a href="#colorlib-about">About</a></li>
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">Portfolio</a>
-          <div class="dropdown-content">
-            <a href="#portfolio">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-          </div>
-        </li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    #colorlib-home {
+      padding-top: 100px; /* Ajustez cette valeur selon vos besoins */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li class="dropdown">
+        <a href="#colorlib-portfolio" class="dropbtn">Portfolio</a>
+        <div class="dropdown-content">
+          <a href="project.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="education.html">Education</a>
+        </div>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <!-- header -->
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="colorlib-navbar-brand">
-              <a class="colorlib-logo" href="index.html">
-                <img src="images/logo.png" alt="Mon Logo" style="max-height: 100px;">
-              </a>
-            </div>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="colorlib-navbar-brand">
+            <a class="colorlib-logo" href="index.html">
+              <img src="images/logo.png" alt="Mon Logo" style="max-height: 100px;">
+            </a>
           </div>
         </div>
-      </div>
-    </header>
-
-    <div id="colorlib-page">
-      <!-- Home Section -->
-      <div id="colorlib-home">
-        <div class="container">
-          <div class="row text-center">
-            <h2 class="bold">Home</h2>
-          </div>
-          <div class="row">
-            <div class="col-md-5 animate-box">
-              <div class="owl-carousel3">
-                <div class="item">
-                  <div class="img-container">
-                    <img class="img-responsive about-img" src="images/about.png" alt="html5 bootstrap template by colorlib.com" />
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="img-container">
-                    <img class="img-responsive about-img" src="images/about.png" alt="html5 bootstrap template by colorlib.com" />
-                  </div>
-                </div>                                    
-              </div>
-            </div>
-            <div class="col-md-6 col-md-push-1 animate-box">
-              <div class="about-desc">
-                <div class="owl-carousel3">
-                  <div class="item">
-                    <h2><span>Yasmine Salmouni</span></h2>
-                  </div>
-                  <div class="item">
-                    <h2 class="smaller-text"><span>A mathematical finance enthusiast seeking an internship opportunity</span></h2>
-                  </div>                  
-                </div>
-                <div class="desc">
-                  <div class="rotate">
-                    <h2 class="heading">Home</h2>
-                  </div>
-                  <p>
-                    Hi! I'm Yasmine Salmouni, a passionate student specializing in computer science. I'm currently studying at l'Ecole des Mines de Saint-Etienne. A very prestigious french school ranked among the top 10 engineering schools in France.
-                  </p>
-                  <p>
-                    I'm looking for a five months internship opportunity where I can leverage my skills in financial mathematics starting from April 2025.
-                  </p>
-                  <p class="cv-social-links">
-                    <a href="https://www.linkedin.com/in/yasmine-salmouni-664836281/" target="_blank"><i class="icon-linkedin"></i></a>
-                    <a href="https://github.com/Yasmine-Salmouni" target="_blank"><i class="icon-github"></i></a>
-                    <a href="https://www.instagram.com/yasmine_salmouni/?hl=ang" target="_blank"><i class="icon-instagram"></i></a>
-                  </p>
-                  <p>
-                    <a href="./pdfs/cv.pdf" class="btn btn-primary btn-outline" target="_blank"> My resume </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a href="#colorlib-about" class="scroll-down" aria-label="Scroll Down">
-          <i class="fas fa-chevron-down"></i>
-        </a>      
       </div>
     </div>
-      <!-- About Section -->
-      <div id="colorlib-about">
+  </header>
+
+  <div id="colorlib-page">
+    <!-- Home Section -->
+    <div id="colorlib-home">
+      <div class="container">
         <div class="row text-center">
-          <h2 class="bold">About</h2>
+          <h2 class="bold">Home</h2>
         </div>
-        <div class="container">
-          <div class="row text-center">
-            <h2 class="bold">About</h2>
-          </div>
-        </div>
-      </div>
-      <!-- Portfolio Section -->
-      <section id="portfolio">
-        <h2>Portfolio</h2>
-      </section>
-
-      <!-- Contact Section -->
-      <section id="contact">
-        <h2>Contact</h2>
-      </section>
-      
-      <!-- service  -->
-      <div id="colorlib-services">
-        <div class="container">
-          <div class="row text-center">
-            <h2 class="bold">Services</h2>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="services-flex">
-                <div class="one-third">
-                  <div class="row">
-                    <div
-                      class="col-md-12 col-md-offset-0 animate-box intro-heading"
-                    >
-                      <span>My Services</span>
-                      <h2>Here Are Some of My Skills</h2>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="rotate">
-                        <h2 class="heading">Services</h2>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <!-- skills -->
-                      <div class="services animate-box">
-                        <h3>1 - Graphic Design</h3>
-                        <ul>
-                          <li>UI Design</li>
-                          <li>Website &amp; Digital Design</li>
-                          <li>Brading &amp; Visual Identity</li>
-                          <li>Print Design</li>
-                        </ul>
-                      </div>
-                      <div class="services animate-box">
-                        <h3>3 - Front End Development</h3>
-                        <ul>
-                          <li>HTML / CSS</li>
-                          <li>JS &amp; Jquery Startup</li>
-                          <li>WordPress</li>
-                          <li>Jomla</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="services animate-box">
-                        <h3>2 - Illustration</h3>
-                        <ul>
-                          <li>Editorial</li>
-                          <li>Narrative</li>
-                          <li>Motion Graphics</li>
-                          <li>Animation</li>
-                          <li>Visual Effects</li>
-                        </ul>
-                      </div>
-                      <div class="services animate-box">
-                        <h3>4 - Web Marketing</h3>
-                        <ul>
-                          <li>Sales Marketing</li>
-                          <li>Invoice</li>
-                          <li>eCommerce</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="one-forth services-img"
-                  style="background-image: url(images/services-img-1.jpg)"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- work -->
-      <div id="colorlib-work">
-        <div class="container">
-          <div class="row text-center">
-            <h2 class="bold">Works</h2>
-          </div>
-          <div class="row">
-            <div
-              class="col-md-12 col-md-offset-0 text-center animate-box intro-heading"
-            >
-              <span>Portfolio</span>
-              <h2>Done Projects</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="rotate">
-                <h2 class="heading">Portfolio</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="work-entry animate-box">
-                <a
-                  href="work.html"
-                  class="work-img"
-                  style="background-image: url(images/work-1.jpg)"
-                >
-                  <div class="display-t">
-                    <div class="work-name">
-                      <h2>Pursuing Best</h2>
-                    </div>
-                  </div>
-                </a>
-                <div class="col-md-4 col-md-offset-4">
-                  <div class="desc">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Excepturi facilis alias est provident dolorum culpa
-                      sapiente porro quasi dolores consequatur.
-                    </p>
-                    <p class="read"><a href="#">View details</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="work-entry animate-box">
-                <a
-                  href="work.html"
-                  class="work-img"
-                  style="background-image: url(images/work-2.jpg)"
-                >
-                  <div class="display-t">
-                    <div class="work-name">
-                      <h2>Coordinates</h2>
-                    </div>
-                  </div>
-                </a>
-                <div class="col-md-4 col-md-offset-4">
-                  <div class="desc">
-                    <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Excepturi facilis alias est provident dolorum culpa
-                      sapiente porro quasi dolores consequatur.
-                    </p>
-                    <p class="read"><a href="#">View Details</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- testimonial -->
-      <div id="colorlib-testimony">
-        <div class="container">
-          <div class="row text-center">
-            <h2 class="bold">Testimonies</h2>
-          </div>
-          <div class="row">
-            <div
-              class="col-md-12 col-md-offset-0 text-center animate-box intro-heading"
-            >
-              <span>Testimonies</span>
-              <h2>Clients Says</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="rotate">
-                <h2 class="heading">Says</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row animate-box">
-            <div class="owl-carousel">
-              <!-- testimonial 1 -->
+        <div class="row">
+          <div class="col-md-5 animate-box">
+            <div class="owl-carousel3">
               <div class="item">
-                <div class="col-md-12 text-center">
-                  <div class="testimony">
-                    <blockquote>
-                      <p>
-                        "Working with [Your Name] was an absolute pleasure!
-                        Their attention to detail and ability to translate our
-                        ideas into a beautiful, functional website exceeded our
-                        expectations. We're thrilled with the end result!
-                      </p>
-                      <span>" &mdash; John Smith</span>
-                    </blockquote>
-                  </div>
+                <div class="img-container">
+                  <img class="img-responsive about-img" src="images/about.png" alt="html5 bootstrap template by colorlib.com" />
                 </div>
               </div>
-              <!-- testimonial 2 -->
               <div class="item">
-                <div class="col-md-12 text-center">
-                  <div class="testimony">
-                    <blockquote>
-                      <p>
-                        "I highly recommend [Your Name] for any web development
-                        needs. Their expertise in HTML, CSS, and JavaScript,
-                        combined with their creativity and communication skills,
-                        made the entire process seamless. Our website looks
-                        amazing, and we've received numerous compliments on it!
-                      </p>
-                      <span>" &mdash; Jane Doe</span>
-                    </blockquote>
-                  </div>
+                <div class="img-container">
+                  <img class="img-responsive about-img" src="images/about.png" alt="html5 bootstrap template by colorlib.com" />
                 </div>
-              </div>
-              <!-- testimonial 3 -->
-              <div class="item">
-                <div class="col-md-12 text-center">
-                  <div class="testimony">
-                    <blockquote>
-                      <p>
-                        "Choosing [Your Name] to redesign our website was the
-                        best decision we made. Their professionalism,
-                        responsiveness, and ability to meet tight deadlines made
-                        the project stress-free. We couldn't be happier with the
-                        final product, and we've already seen an increase in
-                        website traffic and conversions!
-                      </p>
-                      <span>" &mdash; Tom Johnson</span>
-                    </blockquote>
-                  </div>
-                </div>
-              </div>
+              </div>                                    
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- footer -->
-      <footer>
-        <div id="footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 col-pb-sm">
-                <div class="row text-center">
-                  <div class="col-md-12">
-                    <h2>Let's Talk</h2>
-                    <p>
-                      Don't hesitate to contact me to discuss your project or
-                      <br />
-                      ask any questions. I'm always here to help!
-                    </p>
-                    <!-- email -->
-                    <p><a href="#">me@example.com</a></p>
-                    <!-- social media links -->
-                    <p class="colorlib-social-icons">
-                      <a href="#"><i class="icon-facebook4"></i></a>
-                      <a href="#"><i class="icon-twitter3"></i></a>
-                      <a href="#"><i class="icon-googleplus"></i></a>
-                      <a href="#"><i class="icon-dribbble2"></i></a>
-                    </p>
-                  </div>
+          <div class="col-md-6 col-md-push-1 animate-box">
+            <div class="about-desc">
+              <div class="owl-carousel3">
+                <div class="item">
+                  <h2><span>Yasmine Salmouni</span></h2>
                 </div>
+                <div class="item">
+                  <h2 class="smaller-text"><span>An applied mathematics enthusiast seeking an internship opportunity</span></h2>
+                </div>                  
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12 text-center">
+              <div class="desc">
+                <div class="rotate">
+                  <h2 class="heading">Home</h2>
+                </div>
                 <p>
-                  &copy; Copyright &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  All rights reserved | This template is made with
-                  <i class="icon-heart4" aria-hidden="true"></i> by
-                  <a href="https://levelx.in" target="_blank">LevelX</a>
+                  Hi! I'm Yasmine Salmouni, a passionate student specializing in computer science. I'm currently studying at l'Ecole des Mines de Saint-Etienne. A very prestigious french school ranked among the top 10 engineering schools in France.
+                </p>
+                <p>
+                  I'm looking for a five months internship opportunity where I can leverage my skills in applied mathematics starting from April 2025.
+                </p>
+                <p class="cv-social-links">
+                  <a href="https://www.linkedin.com/in/yasmine-salmouni-664836281/" target="_blank"><i class="icon-linkedin"></i></a>
+                  <a href="https://github.com/Yasmine-Salmouni" target="_blank"><i class="icon-github"></i></a>
+                  <a href="https://www.instagram.com/yasmine_salmouni/?hl=ang" target="_blank"><i class="icon-instagram"></i></a>
+                </p>
+                <p>
+                  <a href="./pdfs/cv.pdf" class="btn btn-primary btn-outline" target="_blank"> My resume </a>
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+      <a href="#colorlib-about" class="scroll-down" aria-label="Scroll Down">
+        <i class="fas fa-chevron-down"></i>
+      </a>      
     </div>
+  </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- jQuery Easing -->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <!-- Owl Carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/magnific-popup-options.js"></script>
+<!-- About Section -->
+<div id="colorlib-about" class="colorlib-about">
+  <div class="container">
+    <div class="row text-center">
+      <h2 class="bold">About</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="rotate">
+          <h2 class="heading">About</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 animate-box">
+        <div class="about-img" style="background-image: url('images/about.jpg');"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Skills</h2>
+      </div>
+      <div class="col-md-4 animate-box">
+        <div class="feature-box">
+          <div class="icon">
+            <i class="fas fa-square-root-alt"></i> <!-- Icône pour les mathématiques -->
+          </div>
+          <h3>Mathematics</h3>
+          <p>I have deep knowledge in both analysis and algebra, considering that I completed a highly selective preparatory class (classe prépa étoilée) where these subjects were extensively covered. I am particularly interested in graph theory, which fascinates me with its wide range of applications and theoretical depth.</p>
+        </div>
+      </div>
+      <div class="col-md-4 animate-box">
+        <div class="feature-box">
+          <div class="icon">
+            <i class="fas fa-code"></i> <!-- Icône pour les langages de programmation -->
+          </div>
+          <h3>Programming Languages</h3>
+          <ul>
+            <li><strong>Python:</strong> Learned during preparatory classes and applied in data science internships.</li>
+            <li><strong>C & C++:</strong> Languages learned during engineering studies for writing highly optimized code.</li>
+            <li><strong>SQL:</strong> Introduced during preparatory classes and further deepened during engineering school.</li>
+            <li><strong>HTML & CSS:</strong> Used for coding my online portfolio, creating structured and well-styled web content.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 animate-box">
+        <div class="feature-box">
+          <div class="icon">
+            <i class="fas fa-chart-bar"></i> <!-- Icône pour la science des données -->
+          </div>
+          <h3>Data Science</h3>
+          <p>During my internship at Safran Engineering Services, I performed data analysis using Python and Power BI, gaining valuable experience in manipulating and visualizing data.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center animate-box">
+        <div class="icon">
+          <i class="fas fa-globe"></i>  <!-- Icône pour les langues -->
+        </div>
+        <h3>Languages</h3>
+        <ul>
+          <li><strong>Arabic:</strong> Native</li>
+          <li><strong>French:</strong> Native</li>
+          <li><strong>English:</strong> C2</li>
+          <li><strong>Chinese:</strong> Beginner</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <a href="#colorlib-portfolio" class="scroll-down" aria-label="Scroll Down">
+    <i class="fas fa-chevron-down"></i>
+  </a>   
+</div>
 
-    <!-- Main JS (Do not remove) -->
-    <script src="js/main.js"></script>
-  </body>
+<!-- FontAwesome Script -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Portfolio Section -->
+  <div id="colorlib-portfolio">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="bold">Portfolio</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="rotate">
+            <h2 class="heading">Portfolio</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4 animate-box">
+          <a href="project.html">
+            <h3>Projects</h3>
+            <div class="portfolio-img-container">
+              <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGM1eDEwYWRvcnFiMzRrYXFnYXV1YzVmZWt6NWJrcmpuMXE1amk0NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1iNIkQBAwEkUuTpikf/giphy.gif" alt="Projets" class="portfolio-img">
+            </div>
+            <p>See how I turned ideas into reality.</p>
+          </a>
+        </div>
+        <div class="col-md-4 animate-box">
+          <a href="experience.html">
+            <h3>Experience</h3>
+            <div class="portfolio-img-container">
+              <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHJkaGZxbmQ1aDZjanQ4ZjVscXBtdHE4dGwyNW15ODUxa2w3ODNtbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PwfIMMKfup85BvPHXG/giphy-downsized-large.gif" alt="Expérience" class="portfolio-img">
+            </div>
+            <p>See how I used my skills in real-world settings.</p>
+          </a>
+        </div>
+        <div class="col-md-4 animate-box">
+          <a href="education.html">
+            <h3>Education</h3>
+            <div class="portfolio-img-container">
+              <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDIyYjBmNXowM3VqdjVsYm9tbGlvMGtxMThqMzZsMWFwbXFwNzJ5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y1MBe8yrnHjh0q6o31/giphy.gif" alt="Éducation" class="portfolio-img">
+            </div>
+            <p>See how I grew my knowledge through my education.</p>
+          </a>
+        </div>
+      </div>
+    </div>   
+  </div>
+
+  
+  <!-- footer -->
+  <footer>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-pb-sm">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <h2>Let's Talk</h2>
+                <!-- email -->
+                <p><a href="#">yasmine.salmouni@etu.emse.fr</a></p>
+                <!-- social media links -->
+                <p class="colorlib-social-icons">
+                  <a href="https://www.linkedin.com/in/yasmine-salmouni-664836281/" target="_blank"><i class="icon-linkedin"></i></a>
+                    <a href="https://github.com/Yasmine-Salmouni" target="_blank"><i class="icon-github"></i></a>
+                    <a href="https://www.instagram.com/yasmine_salmouni/?hl=ang" target="_blank"><i class="icon-instagram"></i></a>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              &copy; Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Yasmine Salmouni
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Owl Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+
+<!-- Main JS (Do not remove) -->
+<script src="js/main.js"></script>
+</body>
 </html>
